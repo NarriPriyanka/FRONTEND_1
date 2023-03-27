@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        nav{
+            background-color: darkblue;
+
+        }
+        .a{
+            margin: auto; 
+            width: 20%;
+            padding: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+        .b{
+            background-color: aliceblue;
+             /* border-color: red; */
+           
+        }
+        
+    
+        .hdr{
+            display:grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            height:50px;
+            padding:10px;
+        }
+        .title{
+            display:flex;
+            
+        }
+        .space{
+            padding:30px;
+        }
+        .con{
+            padding-bottom:10px;
+        }
+        .tit{
+            padding-bottom: 10px;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .bt{
+            background-color:coral;
+            color: white;
+            padding: 8px;
+            border-style: none;
+            
+        } 
+        .link{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="a">
+            <div class="b">
+                <div style="text-align:center;font-size:x-large;">NEWS BLOG</div>
+                <div style="text-align:center;font-size: small;">WORLDWIDE NEWS</div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="hdr">
+            <div class="hdr1">
+                <label>SELECT CATEGORY</label>
+                <div><select>
+                    <option value="">ALL</option>
+                </select></div>
+            </div>
+            <div style="text-align:center">
+                <div style="font-size:x-large;padding-top: 10px;font-weight: bold;">ALL NEWS</div>
+            </div>
+            <div style="align-items:center">
+                <label>SUBSCRIBE</label>
+                <div>
+                <input type="email" name="" id="" placeholder="email address">
+                <button type="submit">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <section>
+        <div class="title">
+            <div class="img">
+            <img src="https://static.toiimg.com/thumb/msid-69997884,imgsize-337929,width-400,resizemode-4/69997884.jpg" alt="priyanka" width="200" height="200">
+        </div>
+            <div class="space">
+                <div class="tit">Title One</div>
+                <div class="con">posted on 29-07-2019 //CATEGORY CATEGORY1</div>
+                <div class="con">Leaders of politicial parties and civic activists tore apart the state government for wasting public money on constructing a new Secretariat...</div>
+                <button class="bt"><a  class ="link" href="
+                    
+                    http://timesofindia.indiatimes.com/articleshow/69997847.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst" target="_blank">Continue Reading</a></button>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div class="title">
+                <div class="img"><img src="https://static.toiimg.com/thumb/msid-69997945,imgsize-733572,width-400,resizemode-4/69997945.jpg" alt="cnb" width="200" height="200">
+                </div>
+                <div class="space">
+                    <div class="tit">Title Two</div>
+                    <div clas="con">posted on 29-07-2019 //CATEGORY CATEGORY2</div>
+                    <div class="con">In a move that could have serious political ramifications,the YSRC government has pruned the security cover of former chief minister...</div>
+                    <button class="bt"><a class ="link" href="
+                    
+                        http://timesofindia.indiatimes.com/articleshow/69997913.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst" target="_blank">Continue Reading</a></button>
+
+                </div>
+            </div>
+        </div> 
+        <hr>
+        <div>
+            <div class="title">
+                <div class="img"><img src="https://static.toiimg.com/thumb/msid-69997227,imgsize-648669,width-400,resizemode-4/69997227.jpg" alt="kcr" width="200" height="200">
+                </div>
+                <div class="space">
+                    <div class="tit">Title Three</div>
+                    <div class="con">posted on 29-07-2019 //CATEGORY CATEGORY3</div>
+                    <div class="con">A Bengal government circular asking district education officals to identify government and aided schools that have more than 70% students...</div>
+                    <button class="bt"><a class ="link" href="
+                    
+                        http://timesofindia.indiatimes.com/articleshow/69997207.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst" target="_blank">Continue Reading</a></button>
+
+                </div>
+            </div>
+        </div> 
+        <hr>
+    </section>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
